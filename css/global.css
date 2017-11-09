@@ -1,0 +1,6 @@
+/*For making <a> bootstrap buttons apear the same as <button>*/
+.navbar .btn {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
