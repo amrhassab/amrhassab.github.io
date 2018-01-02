@@ -1,0 +1,9 @@
+.ul_no_bullet 
+{
+    list-style-type: none;
+}
+
+p
+{
+    width: 600px;
+}

@@ -1,6 +1,18 @@
 /*For making <a> bootstrap buttons apear the same as <button>*/
-.navbar .btn {
+.navbar .btn 
+{
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+}
+
+body
+{
+    background: #868e95;
+    color: white;
+}
+
+a
+{
+    color: lightblue;
 }
