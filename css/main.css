@@ -1,0 +1,58 @@
+img
+{
+    width: 225px;
+    height: 225px;
+}
+
+.padded_paragraph
+{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.horizontal_padding
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.small_horizontal_padding
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.very_small_horizontal_padding
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.tiny_horizontal_padding
+{
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.large_horizontal_padding
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.ul_no_bullet 
+{
+    list-style-type: none;
+}
+
+.document_image
+{
+    height: auto; 
+    width: auto; 
+    display: block;
+}
+
+.button_align
+{
+    padding-left:8.4%;
+}

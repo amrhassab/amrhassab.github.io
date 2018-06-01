@@ -38,87 +38,88 @@
   <!-- Global Custom CSS -->
   <link rel="stylesheet" href="../css/global.css">
   <!-- Local Custom CSS -->
-  <link rel="stylesheet" href="../css/projects.css">
+  <link rel="stylesheet" href="../css/main.css">
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-  
+
 </head>
 
 
 <body>
   <!--  - - - - - - - - - - - - - - - - - - - - - - - - - Top NavBar - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-  <nav class="navbar navbar-expand navbar-dark bg-dark">
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item">
-        <a class="btn btn-sm align-middle btn-outline-secondary mx-1" type="button" href="../index.html" data-toggle="tooltip" title="Home">
-          <i class="octicon octicon-home"></i>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="btn btn-sm align-middle btn-outline-secondary mx-1" type="button" href="about.html" data-toggle="tooltip" title="Resume">
-          <i class="octicon octicon-person"></i>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="btn btn-sm align-middle btn-outline-secondary mx-1" type="button" href="contact.html" data-toggle="tooltip" title="Contact">
-          <i class="octicon octicon-mail"></i>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="btn btn-sm align-middle btn-outline-secondary mx-1" type="button" href="projects.html" data-toggle="tooltip" title="Projects">
-          <i class="octicon octicon-mark-github"></i>
-        </a>
-      </li>
-    </ul>
-
-  </nav>
-
-  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->  
-
-  <!-- Content -->
-  <div align="center">
-
-      <br>
-  
-      <ul class="ul_no_bullet">
-        <li>
-            <br>
-            <br>
-            <svg height="225" class="octicon octicon-mail fill-gray-light d-inline ml-4" aria-label="github-mail" viewBox="0 0 16 16" version="1.1" width="225" role="img"><path d="M0 4v8c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1H1c-.55 0-1 .45-1 1zm13 0L7 9 1 4h12zM1 5.5l4 3-4 3v-6zM2 12l3.5-3L7 10.5 8.5 9l3.5 3H2zm11-.5l-4-3 4-3v6z"></path></svg>
-            <br>
-            <br>
-            <br>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item tiny_horizontal_padding">
+          <a class="btn btn-sm align-middle btn-outline-secondary mx-1" type="button" href="../index.html" data-toggle="tooltip" title="Home">
+            <i class="octicon octicon-home"> Home</i>
+          </a>
         </li>
-        <li>
-          <h1 class="mr-3">Contact</h1>
-          <br>
-          <a href="mailto:hassaballah.amr@gmail.com">hassaballah.amr@gmail.com</a>
-          <br>
+        <li class="nav-item tiny_horizontal_padding">
+          <a class="btn btn-sm align-middle btn-outline-secondary mx-1" type="button" href="about.html" data-toggle="tooltip" title="Resume">
+            <i class="octicon octicon-person"> About</i>
+          </a>
         </li>
-        <li>
-          <br>
-          <a href="tel:+201011073003">(+20) 101-107-3003</a>
-          <br>
+        <li class="nav-item tiny_horizontal_padding">
+          <a class="btn btn-sm align-middle btn-outline-secondary mx-1" type="button" href="contact.html" data-toggle="tooltip" title="Contact">
+            <i class="octicon octicon-mail"> Contact</i>
+          </a>
         </li>
-        <li>
-          <br>
-          <a href="https://stackoverflow.com/users/6716398/hammeramr" target="_blank">StackOverflow</a>
-          <br>
-        </li>
-        <li>
-          <br>
-          <a href="https://www.linkedin.com/in/amr-hassaballah-28aa8757/" target="_blank">LinkedIn</a>
-          <br>
-        </li>
-        <li>
-          <br>
-          <a href="https://github.com/hammeramr" target="_blank">GitHub</a>
-          <br>
+        <li class="nav-item tiny_horizontal_padding">
+          <a class="btn btn-sm align-middle btn-outline-secondary mx-1" type="button" href="projects.html" data-toggle="tooltip" title="Projects">
+            <i class="octicon octicon-mark-github"> Projects</i>
+          </a>
         </li>
       </ul>
+    </div>
+  </nav>
+  <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
+  <!-- Content -->
+  <div class="container" align="center">
+      <div class="row" align="center">
+          <div class="col-sm" align="center">
+              <ul class="ul_no_bullet">
+                  <li>
+                      <div align="center" class="large_horizontal_padding ml-4">
+                          <svg height="225" class="octicon octicon-mail fill-gray-light d-inline" aria-label="github-mail" viewBox="0 0 16 16"
+                              version="1.1" width="225" role="img">
+                              <path d="M0 4v8c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1H1c-.55 0-1 .45-1 1zm13 0L7 9 1 4h12zM1 5.5l4 3-4 3v-6zM2 12l3.5-3L7 10.5 8.5 9l3.5 3H2zm11-.5l-4-3 4-3v6z"></path>
+                          </svg>
+                      </div>
+              </ul>
+          </div>
+      </div>
+  
+      <div class="row" align="center">
+          <div class="col-sm">
+              <ul class="ul_no_bullet mr-1">
+                  </li>
+                  <li class="very_small_horizontal_padding">
+                      <h1 align="center">Contact</h1>
+                      <a href="mailto:hassaballah.amr@gmail.com">hassaballah.amr@gmail.com</a>
+                  </li>
+                  <li class="very_small_horizontal_padding">
+                      <a href="tel:+201011073003">(+20) 101-107-3003</a>
+                  </li>
+                  <li class="very_small_horizontal_padding">
+                      <a href="https://stackoverflow.com/users/6716398/hammeramr" target="_blank">StackOverflow</a>
+                  </li>
+                  <li class="very_small_horizontal_padding">
+                      <a href="https://www.linkedin.com/in/amr-hassaballah-28aa8757/" target="_blank">LinkedIn</a>
+                  </li>
+                  <li class="very_small_horizontal_padding">
+                      <a href="https://github.com/hammeramr" target="_blank">GitHub</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  
   </div>
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-  
+
   <!-- JavaScript -->
   <!-- <script src="../js/index.js"></script> -->
 

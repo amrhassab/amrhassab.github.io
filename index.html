@@ -38,7 +38,7 @@
   <!-- Global Custom CSS -->
   <link rel="stylesheet" href="css/global.css">
   <!-- Local Custom CSS -->
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/main.css">
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
 </head>
@@ -46,77 +46,75 @@
 
 <body>
   <!--  - - - - - - - - - - - - - - - - - - - - - - - - - Top NavBar - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-  <nav class="navbar navbar-expand navbar-dark bg-dark">
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item">
-        <a class="btn btn-sm align-middle btn-outline-secondary mx-1" type="button" href="index.html" data-toggle="tooltip" title="Home">
-          <i class="octicon octicon-home"></i>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="btn btn-sm align-middle btn-outline-secondary mx-1" type="button" href="html/about.html" data-toggle="tooltip"
-          title="Resume">
-          <i class="octicon octicon-person"></i>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="btn btn-sm align-middle btn-outline-secondary mx-1" type="button" href="html/contact.html" data-toggle="tooltip"
-          title="Contact">
-          <i class="octicon octicon-mail"></i>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="btn btn-sm align-middle btn-outline-secondary mx-1" type="button" href="html/projects.html" data-toggle="tooltip"
-          title="Projects">
-          <i class="octicon octicon-mark-github"></i>
-        </a>
-      </li>
-    </ul>
-
-
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item tiny_horizontal_padding">
+          <a class="btn btn-sm align-middle btn-outline-secondary mx-1" type="button" href="index.html" data-toggle="tooltip" title="Home">
+            <i class="octicon octicon-home"> Home</i>
+          </a>
+        </li>
+        <li class="nav-item tiny_horizontal_padding">
+          <a class="btn btn-sm align-middle btn-outline-secondary mx-1" type="button" href="html/about.html" data-toggle="tooltip"
+            title="Resume">
+            <i class="octicon octicon-person"> About</i>
+          </a>
+        </li>
+        <li class="nav-item tiny_horizontal_padding">
+          <a class="btn btn-sm align-middle btn-outline-secondary mx-1" type="button" href="html/contact.html" data-toggle="tooltip"
+            title="Contact">
+            <i class="octicon octicon-mail"> Contact</i>
+          </a>
+        </li>
+        <li class="nav-item tiny_horizontal_padding">
+          <a class="btn btn-sm align-middle btn-outline-secondary mx-1" type="button" href="html/projects.html" data-toggle="tooltip"
+            title="Projects">
+            <i class="octicon octicon-mark-github"> Projects</i>
+          </a>
+        </li>
+      </ul>
+    </div>
   </nav>
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
   <!-- Content -->
-  <div align="center">
-    
-      </br>
-      <br>
-      <br>
-      <br>
-      <img src="images/sarah_and_i.png" alt="image did not load">
-      <br>
-      <br>
-      <br>
-      <h3>Amr Hassaballah</h3>
-      <h4>"HammerAmr"</h4>
-      <br>
-      <br>
-      <h6>Software Engineer at AvidBeam, B.S in Electrical Engineering & Computer Science</h6>
-      <h6>"The simpler solution is the better solution"</h6>
-    
+  <div class="container" align="center">
+    <div class="row">
+      <div class="col-sm" align="center">
+        <div class="large_horizontal_padding">
+          <img src="images/sarah_and_i.png" alt="Error loading image :(" class="img-responsive">
+        </div>
 
-    <br>
-    <br>
-    <hr>
-    <br>
-    <br>
+        <h3>Amr Hassaballah</h3>
+        <h4>"HammerAmr"</h4>
 
+        <div class="horizontal_padding">
+          <h6>Software Engineer at AvidBeam, B.S in Electrical Engineering & Computer Science</h6>
+          <h6>"The simpler solution is the better solution"</h6>
+        </div>
 
-    <p class="text-justify">
-      Although I started off with electrical engineering, my true passion lies in computer science and computer engineering. What
-      I love about computers is that after getting access to a machine all you need is time to make something with the potential
-      to be truly useful and amazing. Furthermore, the open source community is astonishing, with many powerful libraries
-      and tools at the tips of your fingers. I hope to one day become a full stack developer or specialize in machine learning. Please feel free to check out my
-      <a href="html/about.html">Resume</a>,
-      <a href="html/projects.html">Projects</a> or
-      <a href="html/contact.html">Contact</a> me.
-    </p>
+      </div>
+    </div>
 
-    <br>
-    <br>
-    <br>
+    <hr class="small_horizontal_padding">
 
+    <div class="row" align="center">
+      <div class="col-sm">
+        <div class="text-justify padded_paragraph horizontal_padding">
+          Although I started off with electrical engineering, my true passion lies in computer science and computer engineering. What
+          I love about computers is that after getting access to a machine all you need is time to make something with the
+          potential to be truly useful and amazing. Furthermore, the open source community is astonishing, with many powerful
+          libraries and tools at the tips of your fingers. I hope to one day become a full stack developer or specialize
+          in machine learning. Please feel free to check out my
+          <a href="html/about.html">Resume</a>,
+          <a href="html/projects.html">Projects</a> or
+          <a href="html/contact.html">Contact</a> me.
+        </div>
+      </div>
+    </div>
   </div>
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 

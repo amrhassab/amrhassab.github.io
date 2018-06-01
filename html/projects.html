@@ -38,7 +38,7 @@
   <!-- Global Custom CSS -->
   <link rel="stylesheet" href="../css/global.css">
   <!-- Local Custom CSS -->
-  <link rel="stylesheet" href="../css/projects.css">
+  <link rel="stylesheet" href="../css/main.css">
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
 </head>
@@ -46,210 +46,219 @@
 
 <body>
   <!--  - - - - - - - - - - - - - - - - - - - - - - - - - Top NavBar - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-  <nav class="navbar navbar-expand navbar-dark bg-dark">
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item">
-        <a class="btn btn-sm align-middle btn-outline-secondary mx-1" type="button" href="../index.html" data-toggle="tooltip" title="Home">
-          <i class="octicon octicon-home"></i>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="btn btn-sm align-middle btn-outline-secondary mx-1" type="button" href="about.html" data-toggle="tooltip" title="Resume">
-          <i class="octicon octicon-person"></i>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="btn btn-sm align-middle btn-outline-secondary mx-1" type="button" href="contact.html" data-toggle="tooltip" title="Contact">
-          <i class="octicon octicon-mail"></i>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="btn btn-sm align-middle btn-outline-secondary mx-1" type="button" href="projects.html" data-toggle="tooltip" title="Projects">
-          <i class="octicon octicon-mark-github"></i>
-        </a>
-      </li>
-    </ul>
-
-
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item tiny_horizontal_padding">
+          <a class="btn btn-sm align-middle btn-outline-secondary mx-1" type="button" href="../index.html" data-toggle="tooltip" title="Home">
+            <i class="octicon octicon-home"> Home</i>
+          </a>
+        </li>
+        <li class="nav-item tiny_horizontal_padding">
+          <a class="btn btn-sm align-middle btn-outline-secondary mx-1" type="button" href="about.html" data-toggle="tooltip" title="Resume">
+            <i class="octicon octicon-person"> About</i>
+          </a>
+        </li>
+        <li class="nav-item tiny_horizontal_padding">
+          <a class="btn btn-sm align-middle btn-outline-secondary mx-1" type="button" href="contact.html" data-toggle="tooltip" title="Contact">
+            <i class="octicon octicon-mail"> Contact</i>
+          </a>
+        </li>
+        <li class="nav-item tiny_horizontal_padding">
+          <a class="btn btn-sm align-middle btn-outline-secondary mx-1" type="button" href="projects.html" data-toggle="tooltip" title="Projects">
+            <i class="octicon octicon-mark-github"> Projects</i>
+          </a>
+        </li>
+      </ul>
+    </div>
   </nav>
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
   <!-- Content -->
-  <div align="center">
+  <div class="container" align="center">
+    <div class="row" align="center">
+      <div class="col-sm">
+        <ul class="ul_no_bullet">
+          <li>
+            <div class="large_horizontal_padding">
+              <svg height="225" class="octicon octicon-mark-github fill-gray-light d-inline" aria-label="github-logo" viewBox="0 0 16 16"
+                version="1.1" width="225" role="img">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+              </svg>
+            </div>
 
-    <br>
-    <br>
+            <h1 class="align-center">Projects</h1>
 
-    <ul class="ul_no_bullet">
-      <li>
-          <br>
-          <br>
-          <svg height="225" class="octicon octicon-mark-github fill-gray-light d-inline; ml-1" aria-label="github-logo" viewBox="0 0 16 16" version="1.1" width="225" role="img"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
-          <br>
-          <br>
-          <br>
-          <h1>Projects</h1>
-          <br>
-          <br>
-      </li>
-      <li>
-        <h3>Content:</h3>
-        <br>
-        <a href="#spotlight">Spotlight: Featured Projects</a>
-        <br>
-      </li>
-      <li>
-        <br>
-        <a href="#digital_design">Digital Design: Electrical Engineering Projects</a>
-        <br>
-      </li>
-      <li>
-        <br>
-        <a href="#miscellaneous">Miscellaneous: Odds and Ends</a>
-        <br>
-      </li>
-    </ul>
+          </li>
+        </ul>
+        <ul class="ul_no_bullet horizontal_padding">
+          <li>
+            <h3>Content:</h3>
+            <br>
+            <a href="#spotlight">Spotlight: Featured Projects</a>
+            <br>
+          </li>
+          <li>
+            <br>
+            <a href="#digital_design">Digital Design: Electrical Engineering Projects</a>
+            <br>
+          </li>
+          <li>
+            <br>
+            <a href="#miscellaneous">Miscellaneous: Odds and Ends</a>
+            <br>
+          </li>
+        </ul>
+      </div>
+    </div>
 
-    <br>
-    <hr>
-    <br>
+    <hr class="small_horizontal_padding">
 
-    <ul class="ul_no_bullet">
-      <li>
-        <a name="spotlight"></a>
-        <h3>Spotlight:</h3>
-        <br>
-        <p class="text-justify">
-          Some well documented projects that I am proud of or found very educational and interesting.
-        </p>
-      </li>
-      <li>
-        <br>
-        <a href="https://hammeramr.github.io/Intro-to-Programming-Languages-and-Compilers/" target="_blank">
-          Intro to Programming Languages and Compilers
-        </a>
-        <br>
-        <br>
-        <p class="text-justify">
-          Building a complete compiler for the "cats" educational computer language built using JavaCUP and JLex. The compiler was
-          made up of five parts: The Lexical Analyser (scanner), The Syntax Analyzer (parser), The Name Checker, The Type
-          Checker and The Code Generator.
-        </p>
-      </li>
-      <li>
-        <br>
-        <a href="https://hammeramr.github.io/Computational-Photography/" target="_blank">
-          Computational Photography
-        </a>
-        <br>
-        <br>
-        <p class="text-justify">
-          Many image manipulation functions built using MatLab: Histogram Equalization, Demosaicing, Color Transfer, Seam Carving and
-          Paronama Generation. The Color Transfer function produced some really interesting images (shown on the project
-          page).
-        </p>
-      </li>
-      <li>
-          <br>
-          <a href="https://github.com/hammeramr/hammeramr.github.io" target="_blank">
-            This Websites GitHub repository :D
-          </a>
-          <br>
-          <br>
-          <p class="text-justify">
-            My first website! I made this website to reenforce concepts learned from a book on web design, HTML, Javascript, CSS and PHP.
-            Although this website is static and therefore I did not practice my Javascript and PHP I still learned a lot. One day I hope to 
-            be able to have my own domain name where I can build a dynamic website.
-          </p>
-        </li>
-    </ul>
+    <div class="row" align="center">
+      <div class="col-sm">
+        <ul class="ul_no_bullet">
+          <li>
+            <a name="spotlight"></a>
+            <h3>Spotlight:</h3>
+            <br>
+            <h6>
+              Some well documented projects that I am proud of or found very educational and interesting.
+            </h6>
+          </li>
+          <li>
+            <br>
+            <a href="https://hammeramr.github.io/Intro-to-Programming-Languages-and-Compilers/" target="_blank">
+              Intro to Programming Languages and Compilers
+            </a>
+            <br>
+            <br>
+            <p class="text-justify padded_paragraph">
+              Building a complete compiler for the "cats" educational computer language built using JavaCUP and JLex. The compiler was
+              made up of five parts: The Lexical Analyser (scanner), The Syntax Analyzer (parser), The Name Checker, The
+              Type Checker and The Code Generator.
+            </p>
+          </li>
+          <li>
+            <br>
+            <a href="https://hammeramr.github.io/Computational-Photography/" target="_blank">
+              Computational Photography
+            </a>
+            <br>
+            <br>
+            <p class="text-justify padded_paragraph">
+              Many image manipulation functions built using MatLab: Histogram Equalization, Demosaicing, Color Transfer, Seam Carving and
+              Paronama Generation. The Color Transfer function produced some really interesting images (shown on the project
+              page).
+            </p>
+          </li>
+          <li>
+            <br>
+            <a href="https://github.com/hammeramr/hammeramr.github.io" target="_blank">
+              This Websites GitHub repository :D
+            </a>
+            <br>
+            <br>
+            <p class="text-justify padded_paragraph">
+              My first website! I made this website to reenforce concepts learned from a book on web design, HTML, Javascript, CSS and
+              PHP. Although this website is static and therefore I did not practice my Javascript and PHP I still learned
+              a lot. One day I hope to be able to have my own domain name where I can build a dynamic website.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
 
+    <hr class="small_horizontal_padding">
 
-    <br>
-    <hr>
-    <br>
+    <div class="row" align="center">
+      <div class="col-sm">
+        <ul class="ul_no_bullet">
+          <li>
+            <a name="digital_design"></a>
+            <h3>Digital Design:</h3>
+            <br>
+            <h6>
+              Some old Electrical Engineering projects. I haven't looked at these for quite a while but I hope to one day document them
+              with their own website like I have for the projects in the Spotlight section.
+            </h6>
+          </li>
+          <li>
+            <br>
+            <a href="https://github.com/hammeramr/Maze-Race" target="_blank">
+              Maze Race
+            </a>
+            <br>
+            <br>
+            <p class="text-justify padded_paragraph">
+              Final project hand in for the class "Intro to Microprocessor Design". Maze Race is a game programmed into the Tiva Launch
+              Pad, which included an ARM micro controller, GPIO (General Purpose Input/Output) pins, UARTs (Universal Asynchronous
+              Receiver/Transmitter), ICEs in addition to other components. An LCD screen, PS2 Joystick, buttons, LEDs, potentiometers
+              and a wireless dongle were also added. The game involved two Tiva Launch Pads, with a maze loaded onto the
+              LCD. The player that manages to guide a dot through the maze first wins.
+            </p>
+          </li>
+          <li>
+            <br>
+            <a href="https://github.com/hammeramr/Intro-to-Microprocessor-Lab" target="_blank">
+              Intro to Microprocessor Lab
+            </a>
+            <br>
+            <br>
+            <p class="text-justify padded_paragraph">
+              This project involved teaching a wheeled Plexis Robot with a Tiva Launch pad attached how to navigate a maze autonomously
+              using the left hand rule. Although our robot hung up on an obstacle once it recorded the fastest maze completion
+              time that year (2015).
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
 
-    <ul class="ul_no_bullet">
-        <li>
-          <a name="digital_design"></a>
-          <h3>Digital Design:</h3>
-          <br>
-          <p class="text-justify">
-            Some old Electrical Engineering projects. I haven't looked at these for quite a while but I hope to one day document them 
-            with their own website like I have for the projects in the Spotlight section.
-          </p>
-        </li>
-        <li>
-          <br>
-          <a href="https://github.com/hammeramr/Maze-Race" target="_blank">
-            Maze Race
-          </a>
-          <br>
-          <br>
-          <p class="text-justify">
-            Final project hand in for the class "Intro to Microprocessor Design". Maze Race is a game programmed into the Tiva Launch Pad,
-            which included an ARM micro controller, GPIO (General Purpose Input/Output) pins, UARTs 
-            (Universal Asynchronous Receiver/Transmitter), ICEs in addition to other components. An LCD screen, PS2 Joystick, buttons,
-            LEDs, potentiometers and a wireless dongle were also added. The game involved two Tiva Launch Pads, with a maze loaded onto the LCD.
-            The player that manages to guide a dot through the maze first wins.
-          </p>
-        </li>
-        <li>
-          <br>
-          <a href="https://github.com/hammeramr/Intro-to-Microprocessor-Lab" target="_blank">
-            Intro to Microprocessor Lab
-          </a>
-          <br>
-          <br>
-          <p class="text-justify">
-            This project involved teaching a wheeled Plexis Robot with a Tiva Launch pad attached how to navigate a maze autonomously
-            using the left hand rule. Although our robot hung up on an obstacle once it recorded the fastest maze completion time that year
-            (2015).
-          </p>
-        </li>
-      </ul>
+    <hr class="small_horizontal_padding">
 
-    <br>
-    <hr>
-    <br>
-
-    <ul class="ul_no_bullet">
-        <li>
-          <a name="miscellaneous"></a>
-          <h3>Miscellaneous:</h3>
-          <br>
-          <p class="text-justify">
-            Small scripts, ongoing/incomplete projects and more.
-          </p>
-        </li>
-        <li>
-          <br>
-          <a href="https://github.com/hammeramr/paramiko_wrapper" target="_blank">
-            Paramiko Wrapper
-          </a>
-          <br>
-          <br>
-          <p class="text-justify">
-            A wrapper class for the Python module Paramiko. Paramiko allows you to communicate wih other servers using SSH. This wrapper class
-            simplifies the process and takes it up a level. It makes sending commands, including sudo commands, easy while returning the 
-            standard error, standard output and return value.
-          </p>
-        </li>
-        <li>
-          <br>
-          <a href="https://github.com/hammeramr/MyHackerRankSolutions" target="_blank">
-            My Hacker Rank Solutions
-          </a>
-          <br>
-          <br>
-          <p class="text-justify">
-            Solutions to problems I have solved on <a href="https://www.hackerrank.com/" target="_blank">hackerrank.com</a>. A good 
-            website for puzzles to help you practice fundamental computer science concepts. I hope to one day finish all the problems
-            on the website.
-          </p>
-        </li>
-      </ul>
-
+    <div class="row" align="center">
+      <div class="col-sm">
+        <ul class="ul_no_bullet">
+          <li>
+            <a name="miscellaneous"></a>
+            <h3>Miscellaneous:</h3>
+            <br>
+            <h6>
+              Small scripts, ongoing/incomplete projects and more.
+            </h6>
+          </li>
+          <li>
+            <br>
+            <a href="https://github.com/hammeramr/paramiko_wrapper" target="_blank">
+              Paramiko Wrapper
+            </a>
+            <br>
+            <br>
+            <p class="text-justify padded_paragraph">
+              A wrapper class for the Python module Paramiko. Paramiko allows you to communicate wih other servers using SSH. This wrapper
+              class simplifies the process and takes it up a level. It makes sending commands, including sudo commands, easy
+              while returning the standard error, standard output and return value.
+            </p>
+          </li>
+          <li>
+            <br>
+            <a href="https://github.com/hammeramr/MyHackerRankSolutions" target="_blank">
+              My Hacker Rank Solutions
+            </a>
+            <br>
+            <br>
+            <p class="text-justify padded_paragraph">
+              Solutions to problems I have solved on
+              <a href="https://www.hackerrank.com/" target="_blank">hackerrank.com</a>. A good website for puzzles to help you practice fundamental computer science concepts.
+              I hope to one day finish all the problems on the website.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
